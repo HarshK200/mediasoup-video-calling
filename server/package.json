@@ -1,0 +1,16 @@
+{
+  "name": "mediasoup-video-calling-server",
+  "version": "1.0.0",
+  "description": "Mediasoup Video Calling webapp server",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "node ./dist/index.js",
+    "dev": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
