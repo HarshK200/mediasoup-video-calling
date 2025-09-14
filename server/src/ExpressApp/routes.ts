@@ -35,7 +35,12 @@ export function createV1Router() {
   // route to create stream
   v1Router.post("/create-stream", authMiddleware, (req, res) => {
     try {
-      // TODO: do the media-soup worker stuff (create a router)
+      // TODO:
+      // 1. create a stream object instance and push it to the streams array
+      // 2. get a mediasoup worker using the getMediasoupWorker() function i implemented
+      // 3. create a router managed by that worker
+      // 4. Now on the client side the user should be redirected to stream/:id route
+      // which makes a ws connection to the signalling server(which is not implemented yet)
 
       return res
         .status(200)
