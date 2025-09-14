@@ -1,1 +1,1 @@
-{"root":["./src/index.ts","./src/ExpressApp/routes.ts","./src/ExpressApp/server.ts","./src/ExpressApp/middlewares/auth.ts"],"version":"5.9.2"}
+{"root":["./src/index.ts","./src/ExpressApp/routes.ts","./src/ExpressApp/server.ts","./src/ExpressApp/middlewares/auth.ts","./src/Mediasoup/index.ts"],"version":"5.9.2"}

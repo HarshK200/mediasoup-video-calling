@@ -37,7 +37,6 @@ export function createV1Router() {
     try {
       // TODO: do the media-soup worker stuff (create a router)
 
-
       return res
         .status(200)
         .json({ msg: "test", username: req.body.username! });
